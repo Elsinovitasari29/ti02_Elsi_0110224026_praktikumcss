@@ -1,0 +1,106 @@
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+h1 {
+    color:black;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    width: fit-content;
+}
+#header {
+    background-color: pink;
+    height: 130px;
+    padding: 10px; 
+}
+.desk {
+    text-align: center;
+    color: white;
+}
+.menu {
+    background-color:bisque;
+    padding: 3px;
+}
+
+.menu li {
+    display: inline;
+   
+    
+}
+.menu a {
+    background-color: white;
+    border-radius: 40%;
+    padding: 10px;
+    color: black;
+    margin-inline: 200px;
+    text-decoration:none;
+    
+}
+
+.menu a:hover {
+    color: black;
+    font-weight: bold;
+}
+.isi::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+.gambar{
+    margin-left:  auto;
+    display: block;
+    text-align: center;
+}  
+.gambar img {
+    width:25%;
+}
+.koleksi {
+    text-align: center;
+}
+.koleksi img{
+    width: 23%;
+}
+.promo{
+    text-align: center;
+}
+.promo h2{
+    color:pink;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 30px;
+}
+.promo h3{ 
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    background-color:pink;
+}
+.promo h4{
+    color: pink;
+    display: inline-block;
+    padding: 5px;
+    
+}
+.ecommerce {
+    background-color: bisque;
+    padding: 10px;
+}
+.ecommerce li {
+    display: inline;
+}
+.ecommerce a:hover{
+    color: black;
+    font-weight: bold;
+}
+.ecommerce a {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-inline: 200px;
+    background-color: pink;
+    border-radius: 40%;
+}
